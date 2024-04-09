@@ -1,0 +1,17 @@
+{
+  "name": "react-tailwind",
+  "version": "1.0.0",
+  "description": "Practicando tailwind",
+  "main": "index.js",
+  "scripts": {
+    "tw:build": "tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css",
+    "tw:dev": "tailwindcss -o tailwind.css --watch",
+	  "build": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Josue - Platzi",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
