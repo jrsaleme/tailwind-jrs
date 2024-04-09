@@ -6,7 +6,7 @@
   "scripts": {
     "tw:build": "tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css",
     "tw:dev": "tailwindcss -o tailwind.css --watch",
-	  "build": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css",
+	  "build": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css --minify",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Josue - Platzi",
